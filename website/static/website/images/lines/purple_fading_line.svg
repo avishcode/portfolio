@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.043" height="432.999" viewBox="0 0 18.043 432.999">
+  <g id="lines-hero" transform="translate(-4.406 -213.001)">
+    <line id="Line_5" data-name="Line 5" y1="423" transform="translate(13.536 221.5)" fill="none" stroke="#7418fd" stroke-linecap="round" stroke-width="3"/>
+    <g id="Group_12" data-name="Group 12">
+      <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="8" cy="5" rx="8" ry="5" transform="matrix(0.966, -0.259, 0.259, 0.966, 4.407, 217.142)" fill="#fff"/>
+      <path id="Path_28" data-name="Path 28" d="M20.189,218.088a3.361,3.361,0,0,1-1.114,3.081,9.836,9.836,0,0,1-4.613,2.6,9.837,9.837,0,0,1-5.292.059,3.361,3.361,0,0,1-2.5-2.111,3.361,3.361,0,0,1,1.114-3.081,9.836,9.836,0,0,1,4.612-2.6,9.837,9.837,0,0,1,5.292-.059A3.361,3.361,0,0,1,20.189,218.088Z" fill="none" stroke="#9a74d0" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

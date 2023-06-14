@@ -1,0 +1,135 @@
+{% extends 'website/base.html' %} 
+
+{% load static %}
+
+{% block page_content %}
+
+<section class="home d-flex align-items-center">
+  <div class="effect-wrap">
+    <i class="fas fa-plus effect effect-1"></i>
+    <i class="fas fa-plus effect effect-2"></i>
+    <i class="fas fa-circle-notch effect effect-3"></i>
+  </div>
+
+  <div class="container">
+    <div class="row align-items-center">
+        <div class="col-md-7">
+            <div class="home-text">
+                <h1>
+                    Hii, I am Vishal Vishwakarma
+                </h1>
+                <h2>
+                    Designer, Developer & Cybersecurity Analyst
+                </h2>
+                <p>
+                    I design and code beautifully simple things, and I love what I do!!!
+                </p>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="about section-padding">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="section-title">
+                <h5>About Me</h5>
+            </div>
+        </div>
+        <div class="container box">
+            <p>
+                My journey as a freelancer, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="works section-padding">
+    <div class="container">
+        <div class="align-items-center">
+            <div class="section-title">
+                <h5>My Recent Works</h5>
+                <p>Here are few past project I've worked on want to see more?? <a href="#">Email me!!!</a></p>
+                <div class="row">
+                    <div class="card pl-2" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+    
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+
+                      <div class="did-you-know">
+                        <p>Did You know</p>
+                      </div>
+
+                      <div class="did-you-know-items">
+                        <p>46% of search on Google include local intent</p>
+                        <p>97% of users use search to find local businesses</p>
+                        <p>28% of users purchased an item after a local search</p>
+                        <p>70% of users will visit a store because of what they found online</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="technology section-padding">
+    <div class="container">
+        <div class="align-items-center">
+            <div class="scetion-title">
+                <h5>Technologies and tools I Use</h5>
+                <div class="row">
+                    <div class="col-sm-1">
+                        <img style="width: 67px;" src="{% static 'website/images/icons/python.svg' %}" alt="">
+                        <img style="width: 67px;" src="{% static 'website\images\icons\django.svg' %}" alt="">
+                        <img style="width: 67px;" src="{% static 'website\images\icons\django.svg' %}" alt="">
+                        
+                    </div>
+                    <div class="col-sm-2">
+                        this is column 2
+                    </div>
+                    <div class="col-sm-2">
+                        this is column 3
+                    </div>
+                    <div class="col-sm-2">
+                        this is column 4
+                    </div>
+                    <div class="col-sm-2">
+                        this is column 5
+                    </div>
+                    <div class="col-sm-2">
+                        this is column 6
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+{% endblock page_content %}
